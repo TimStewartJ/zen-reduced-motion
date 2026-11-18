@@ -1,0 +1,12 @@
+/* The compact mode sidebar and toolbar slide in and out on hover with CSS
+ * transitions. Show and hide them in place while reduced motion is on. */
+@media (prefers-reduced-motion: reduce) and -moz-pref("zen.mods.reduced-motion.compact-sidebar") {
+  :root[zen-compact-mode="true"] {
+    --zen-hidden-toolbar-transition-duration: 0s !important;
+
+    & #navigator-toolbox:not([animate="true"]),
+    & #navigator-toolbox:not([animate="true"]) #titlebar {
+      transition: none !important;
+    }
+  }
+}

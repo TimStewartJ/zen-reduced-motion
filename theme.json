@@ -1,17 +1,28 @@
 {
-  "id": "reduced-motion-spaces",
-  "name": "Reduced Motion Spaces",
-  "description": "Switches spaces instantly when reduced motion is on, and keeps the slide when it's off.",
-  "homepage": "https://github.com/TimStewartJ/zen-reduced-motion-spaces",
+  "id": "zen-reduced-motion",
+  "name": "Reduced Motion for Zen",
+  "description": "Turns off Zen animations that ignore reduced motion: space switching, the compact mode sidebar and toolbar, and the download animation. Only while reduced motion is on.",
+  "homepage": "https://github.com/TimStewartJ/zen-reduced-motion",
   "author": "TimStewartJ",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
-    "reduced-motion-spaces.uc.js": {
-      "include": ["chrome://browser/content/browser.xhtml"]
+    "reduced-motion.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ]
     }
   },
-  "fork": ["zen"],
-  "tags": ["Accessibility", "Animation"],
+  "preferences": "preferences.json",
+  "fork": [
+    "zen"
+  ],
+  "tags": [
+    "Accessibility",
+    "Animation"
+  ],
   "createdAt": "2026-11-18",
-  "updatedAt": "2026-11-18"
+  "updatedAt": "2026-11-18",
+  "style": {
+    "chrome": "chrome.css"
+  }
 }

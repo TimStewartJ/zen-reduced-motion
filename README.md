@@ -1,9 +1,11 @@
-# Reduced Motion Spaces
+# Reduced Motion for Zen
 
-A [Sine](https://github.com/CosmoCreeper/Sine) mod for Zen Browser. When reduced motion is on, switching spaces happens instantly. When it's off, spaces slide like normal.
+A [Sine](https://github.com/CosmoCreeper/Sine) mod for Zen Browser. Some of Zen's animations keep playing when reduced motion is on. While it's on, this mod turns them off:
 
-It follows the system setting live, so it works well over Remote Desktop, where Windows turns animations off for the session.
+- Switching spaces happens instantly instead of sliding
+- The compact mode sidebar and toolbar show and hide without sliding
+- The download animation is skipped
 
-It works by setting `zen.workspaces.switch-animation-duration` to 0 while reduced motion is on, and putting your old value back when it turns off or the mod is removed.
+When reduced motion is off, Zen animates like normal. It follows the system setting live, so it works well over Remote Desktop, where Windows turns animations off for the session.
 
-Install: Sine settings > install from repo > `TimStewartJ/zen-reduced-motion-spaces`
+It works through Zen's own settings (`zen.workspaces.switch-animation-duration`, `zen.view.compact.animate-sidebar`, `zen.downloads.download-animation`), plus a small stylesheet for the compact mode hover slide. Your previous values come back when reduced motion turns off or the mod is removed. Each one can be turned off in the mod's settings.

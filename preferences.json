@@ -1,0 +1,24 @@
+[
+  {
+    "type": "text",
+    "label": "While reduced motion is on in your system settings:"
+  },
+  {
+    "type": "checkbox",
+    "label": "Switch spaces instantly",
+    "property": "zen.mods.reduced-motion.spaces",
+    "defaultValue": true
+  },
+  {
+    "type": "checkbox",
+    "label": "Show and hide the compact mode sidebar and toolbar without sliding",
+    "property": "zen.mods.reduced-motion.compact-sidebar",
+    "defaultValue": true
+  },
+  {
+    "type": "checkbox",
+    "label": "Skip the download animation",
+    "property": "zen.mods.reduced-motion.downloads",
+    "defaultValue": true
+  }
+]
