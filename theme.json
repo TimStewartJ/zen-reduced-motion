@@ -1,0 +1,17 @@
+{
+  "id": "reduced-motion-spaces",
+  "name": "Reduced Motion Spaces",
+  "description": "Switches spaces instantly when reduced motion is on, and keeps the slide when it's off.",
+  "homepage": "https://github.com/TimStewartJ/zen-reduced-motion-spaces",
+  "author": "TimStewartJ",
+  "version": "1.0.0",
+  "scripts": {
+    "reduced-motion-spaces.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"]
+    }
+  },
+  "fork": ["zen"],
+  "tags": ["Accessibility", "Animation"],
+  "createdAt": "2026-11-18",
+  "updatedAt": "2026-11-18"
+}
