@@ -24,5 +24,6 @@
   "updatedAt": "2026-11-18",
   "style": {
     "chrome": "chrome.css"
-  }
+  },
+  "ai": "yes"
 }
